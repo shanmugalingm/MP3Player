@@ -74,7 +74,7 @@ public class MP3PlayerTestCase {
 		try {
 			mp3File = new File(mp3URL.toURI());
 		} catch (URISyntaxException e) {
-			fail("Special Character File could not be created.");
+			fail("MP3 File could not be loaded.");
 		} finally {
 		}
 		return mp3File;
